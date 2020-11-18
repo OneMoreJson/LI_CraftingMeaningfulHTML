@@ -8,3 +8,5 @@ I was trying fix the connection between the desktop folders and the online GH.  
 Why does GH not add my uploads to the Repo towards caclulating my activity?  Lets try this.  
 ### 1956 | Completed Lesson
 Completed the Lesson.  I am still trying to figure out the workflow
+### 2107 | Next Class Ready
+Changed the folders to keep all the Linked In lessons for Front End.
