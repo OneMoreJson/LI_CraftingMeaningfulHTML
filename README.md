@@ -10,3 +10,6 @@ Why does GH not add my uploads to the Repo towards caclulating my activity?  Let
 Completed the Lesson.  I am still trying to figure out the workflow
 ### 2107 | Next Class Ready
 Changed the folders to keep all the Linked In lessons for Front End.
+
+## 2020 11 18 : 2000 | HTML Meta Tag Course
+Learning about meta tags inside the head of an HTML document.  See the Notion Notes on this course for reminders.  
