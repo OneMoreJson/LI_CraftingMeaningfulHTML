@@ -1,4 +1,4 @@
-# LI_CraftingMeaningfulHTML
+# LI 03 ... Crafting Meaningful HTML
 ## 2020 11 08 : 1500 | Start Course
 This is the 2nd LI course I've taken...I'm combining it into the GH workflow to max my learning
 
@@ -13,3 +13,11 @@ Changed the folders to keep all the Linked In lessons for Front End.
 
 ## 2020 11 18 : 2000 | HTML Meta Tag Course
 Learning about meta tags inside the head of an HTML document.  See the Notion Notes on this course for reminders.  
+
+# LI 04 ... Succeeding In Web Development
+## 2020 11 20 : 1300 | Begin and Complete
+This is a class that explains all the parts of becomeing a Web Dev and what one should be able to do and provide the community.  I need to rewatch this and take extensive notes.  The instructor listed off a ton of resources.  It would be easy to flail and try to do and know everything AT ONCE
+
+# LI 05 ... HTML Tables
+## 2020 11 20 : 1500 | Begin Lesson
+I started this lesson because it works well with AMU's Web Dev Intro Week 04 assignment.  I expect I will learn more than I need for the class.  Still, that is what I'm looking for.  Completed.
