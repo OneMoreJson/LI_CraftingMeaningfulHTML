@@ -1,0 +1,13 @@
+html {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  width: 300px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+

@@ -21,3 +21,17 @@ This is a class that explains all the parts of becomeing a Web Dev and what one 
 # LI 05 ... HTML Tables
 ## 2020 11 20 : 1500 | Begin Lesson
 I started this lesson because it works well with AMU's Web Dev Intro Week 04 assignment.  I expect I will learn more than I need for the class.  Still, that is what I'm looking for.  Completed.
+
+# LI 06 ... HTML Forms
+## 2020 11 24 : 1500 | Start & Finish Lesson
+I started this lesson because it works well with Week 05's Wev Dev Lesson in AMU.  However, the instructor was so terribly sad I just finished the lesson for the cert.  I'll be using reference because things can change.  Also, this lesson was kind of old.  She did stuff that didn't make sense. 
+
+
+
+
+
+
+
+
+
+

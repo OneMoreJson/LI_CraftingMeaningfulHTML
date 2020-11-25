@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Date, Times and Phone numbers</title>
+</head>
+<body>
+  <h1>About You</h1>  
+    <form id="questions" method="post" name="questions">
+      <label for="birthday">Birthday</label><br>
+      <input type="date" id="birthday" name="birthday"><br>
+      
+      <!-- Min Max -->
+      <label for="birthday2">Birthday</label><br>
+      <input type="date" id="birthday2" min="2017-01-01" max="2020-01-01" name="birthday2"><br>
+      
+      <!-- time -->
+      <label for="time">Time</label><br>
+      <input type="time" id="time" name="time"><br>
+      
+      <!-- time with step -->
+      <label for="time2">Time 2</label><br>
+      <input type="time2" id="time2" step="1800" name="time2"><br>
+      
+      <!-- Phone -->
+      <label for="phone">Phone</label><br>
+      <input type="tel" id="phone" name="phone"><br>
+
+      <input type="submit">
+    </form>
+
+</body>
+</html>

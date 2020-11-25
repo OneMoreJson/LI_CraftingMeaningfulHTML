@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Radio Buttons, Checkboxes, Select </title>
+</head>
+<body>
+  <h1>About You</h1>  
+    <form id="questions" method="post" name="questions">
+      <fieldset>
+        <legend>What is your favorite color?</legend>
+          <input type="radio" name="name" value="blue" id="blue"><label for="blue">blue</label><br>
+          <input type="radio" name="name" value="red" id="red"><label for="red">red</label><br>
+          <input type="radio" name="name" value="green" id="green"><label for="green">green</label><br>
+        </fieldset>
+<br>
+    <form id="questions" method="post" name="questions">
+      <fieldset>
+        <legend>Who are your favorite heroes</legend>
+          <input type="checkbox" name="h1" value="h1" id="h1"><label for="h1">Spiderman</label><br>
+          <input type="checkbox" name="h2" value="h2" id="h2"><label for="h2">Batman</label><br>
+          <input type="checkbox" name="h3" value="h3" id="h3"><label for="h3">Superman</label><br>
+        </fieldset>
+<br>
+<h2>Drop down select</h2>
+      <label for="pizza">What is your favorite pizza topping</label>
+      <select name="pizza" id="pizza">
+        <option value="mushroom">mushroom</option>
+        <option value="onions">onions</option>
+        <option value="peperoni">peperoni</option>
+        <option value="sasage">sasage</option>
+      </select>
+<br>
+<h2>Select with categories</h2>
+      <label for="pizza2">What is your favorite pizza topping</label>
+      <select name="pizza2" id="pizza2">
+        <optgroup label="veggies">
+          <option value="mushroom">mushroom</option>
+          <option value="onions">onions</option>
+        </optgroup>
+        <optgroup label="meats">
+          <option value="peperoni">peperoni</option>
+          <option value="sasage">sasage</option>
+        </optgroup>
+      </select>
+<br><br><br>
+<!-- can add more room in box by adding 'size="aNumber"'' -->
+      <label for="pizza">What are your favorite ice cream toppings</label>
+      <select name="toppings" id="toppings" multiple>
+        <option value="sprinkles">sprinkles</option>
+        <option value="coconut">coconut</option>
+        <option value="chocolate">chocolate</option>
+        <option value="marshmallows">marshmallows</option>
+      </select>
+
+      <br><br><input type="submit">
+    </form>
+
+</body>
+</html>

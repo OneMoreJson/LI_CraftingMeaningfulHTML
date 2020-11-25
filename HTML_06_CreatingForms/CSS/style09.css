@@ -1,0 +1,38 @@
+html {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  width: 300px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* input[type="file"] {
+  font-size: 2rem;
+  color: red;
+  padding-top: .5rem;
+}
+input[type="date"] {
+  font-size: 2rem;
+  color: green;
+}
+label {
+  color: blue;
+  font-weight: bold;
+}
+
+input[type="date"] + label {
+  color: orange;
+} */
+
+fieldset {
+  color: orange;
+}
+
+legend {
+  color: purple;
+  border: 1px dotted purple;
+}
+
