@@ -1,7 +1,6 @@
 # Linkedin Learning : Web Dev Front In Lessons
 
-## LI 07 … HTML Video and Audio
-## LI 08 … HTML Web Programming Foundations
+## LI 07 … HTML Video and Audio && LI 08 … HTML Web Programming Foundations
 
 ### 2020 11 28 : 0700 || Lesson 07 
 Started Lesson.  Ended up completing Lesson 08.
