@@ -1,5 +1,15 @@
 # Linkedin Learning : Web Dev Front In Lessons
 
+## LI 07 … HTML Video and Audio
+## LI 08 … HTML Web Programming Foundations
+
+### 2020 11 28 : 0700 || Lesson 07 
+Started Lesson.  Ended up completing Lesson 08.
+#### 1200 | Lesson 08
+Started and completed Lesson 08.  It was about 40 minutes of video.  Most educational part about the lesson was how the DOM and Nodes work together.
+
+-----------------------------------------------------------------------------
+
 ### 2020 11 27 || Readme
 Reorganized all readme entries.  I placed everything in a Scrivener document.  The idea is to write here, in a wordprocessing application.  It will help me check my spelling.  It will also provide a backup for all work.  Finally, when the day is over and I’m uploading into GH, I will have everything I did through the day written here…I only need to copy and paste.  
 Another thing I wanted to do before the Readme files became overwhelmingly large.  I wanted the file to read backwards.  You should read what is recent at the beginning of the document.  If you want to follow what came before, scroll and it should be easy to see.  Finally, I created lines to break apart days.  Sometimes you will have titles, subtitles with the day, and sub-sub titles with the time.  These needed to be “blocked” in a manner that is less confusing than continuing to look to see what day you are on.  
