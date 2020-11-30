@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Video, Hiding Controls</title>
+  <style>
+    body{
+      background-color: rgb(37,37,37);
+      color: aliceblue;
+      padding: 2rem;
+      margin: 0;
+    }
+
+    button {
+      background-color: #3d0000;
+      border-color: rgb(82, 82, 82);
+      border-radius: 8px;
+      color: rgb(180, 180, 180);
+      font-size: 1.2rem;
+      font-weight: 600;
+      height: 36px;
+      border-style: solidd;
+    }
+
+    #mediaControls {
+      width: 600px;
+      margin-top: 0.3rem;
+      margin-bottom: 0.3rem;
+      position: relative;
+    }
+
+    #timeDisplay {
+      font-family: 'Courier New', Courier, monospace;
+      color: rgb(180, 180, 180);
+      font-size: 1.4rem;
+      position: absolute;
+      right: 0px;
+      top: 15px;
+    }
+
+    #controlBarRail {
+      background-color: darkred;
+      height: 3px;
+      margin-bottom: 0.6rem;
+      cursor: pointer;
+
+    }
+
+    #controlBarFill {
+      background-color: rgb(136, 216, 172);
+      height: 3px;
+      cursor: pointer;
+    }
+
+  </style>
+</head>
+<body>
+  <video id="videoElement" src="MEDIA/video.mp4" poster="MEDIA/still.png" preload="metadata" width="600">
+  </video>
+  <div id="mediaControls">
+    <div id="controlBarRail">
+      <div id="controlBarFill"></div>
+    </div>
+    <button id="play">Play</button>
+    <button id="pause">Pause</button>
+
+    <div id="timeDisplay">
+      <time id="positionDisplay">00:00</time>
+      <time id="durationDisplay">00:00</time>
+    </div>
+
+  </div>
+
+<!-- Javascript starts below -->
+
+  <script>
+    var media = document.querySelector('#videoElement')
+    var play = document.querySelector('#play')
+    var pause = document.querySelector('#pause')
+    var position = document.querySelector('#positionDisplay')
+    var duration = document.querySelector('#durationDisplay')
+    var rail = document.querySelector('#controlBarRail')
+    var fill = document.querySelector('#controlBarFill')
+
+    // Hiding Controls
+    var mc = document.querySelector('#mediaControls');
+    media.addEventListener('mouseenter', showControls);
+    function showControls() {
+      mc.style.display = 'block'
+    }
+
+    media.addEventListener('mouseleave', hideControls);
+    function hideControls(){
+      mc.style.display = 'none'
+    }
+
+
+
+
+    play.addEventListener('click', playMedia); 
+    function playMedia() {
+      media.play();
+    }
+    
+    pause.addEventListener('click', pauseMedia); 
+    function pauseMedia() {
+      media.pause();
+    }
+
+    rail.addEventListener('click', seekMedia); 
+    fill.addEventListener('click', seekMedia); 
+    function seekMedia(e) {
+      media.currentTime = e.offsetX / rail.offsetWidth * media.duration;
+    }
+
+    media.addEventListener('loadedmetadata', updateTime)
+    media.addEventListener('timeupdate', updateTime)
+    function updateTime() {
+      position.textContent = timeDisplay(media.currentTime);
+      duration.textContent = timeDisplay(media.duration);
+      var currentLength = rail.clientWidth * (media.currentTime / media.duration);
+      fill.style.width = currentLength + 'px';
+    }
+
+    function timeDisplay(t) {
+      var minutes = Math.floor(t / 60);
+      var seconds = Math.floor(t - minutes * 60);
+
+      var minuteValue;
+      if (minutes < 10) {
+        minuteValue = '0' + minutes;
+      } else {
+        minuteValue = minutes;
+      }
+
+      var secondValue;
+      if (seconds < 10) {
+        secondValue = '0' + seconds;
+      } else {
+        secondValue = seconds;
+      }
+
+      var mediaTime = minuteValue + ':' + secondValue;
+      return mediaTime
+    }
+
+  </script>
+
+
+</body>
+</html>
