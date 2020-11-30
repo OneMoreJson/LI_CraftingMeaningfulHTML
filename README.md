@@ -1,5 +1,11 @@
 # Linkedin Learning : Web Dev Front In Lessons
 
+
+### 2020 11 30 || 1350 Lesson 07
+Finally completed.  This was both a lot more than I needed for the class, while also only touching the surface of what we could do.  It was a good class.  I need to learn JS next.  
+
+-----------------------------------------------------------------------------
+
 ### 2020 11 29 || 0900 Lesson 07
 Continued Lesson.  Did not complete.  Need to continue tomorrow.  
 
