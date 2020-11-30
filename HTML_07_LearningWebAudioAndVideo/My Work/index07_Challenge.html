@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Video, Changing Controls || Challenge</title>
+  <style>
+    body{
+      background-color: rgb(37,37,37);
+    }
+    a, time {
+      color: aliceblue;
+    }
+    #videoContainer {
+      position: relative;
+    }
+    #mediaControls {
+      position: absolute;
+      left: 20px;
+      bottom: 20px;
+    }
+
+  </style>
+</head>
+<body>
+  <div id="videoContainer">
+    <video src="MEDIA/video.mp4" poster="MEDIA/still.png" preload="metadata" width="600"></video>
+
+    <div id="mediacontrols">
+      <button id="play">Play</button>
+      <button id="pause">Pause</button>
+
+      <div id="timeDisplay">
+        <time id="positionDisplay">00:00</time>
+        <time id="durationDisplay">00:00</time>
+      </div>
+      <div id="controlBarRail">
+        <div id="controlBarFill">
+        </div>
+      </div>
+    </div>
+  </div> <!-- Video Container-->
+
+</body>
+</html>

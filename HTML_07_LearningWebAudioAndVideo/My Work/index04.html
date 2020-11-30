@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Video and Accessibility</title>
+  <style>
+    body{
+      background-color: rgb(37,37,37);
+    }
+    a {
+      color: aliceblue;
+    }
+
+  </style>
+</head>
+<body>
+  <video src="MEDIA/video.mp4" controls width="600" poster="MEDIA/still.png" preload="metadata">
+    <track default label="English" kind="captions" srclang="en" src="MEDIA/captions.vtt"/>
+  </video>
+</body>
+</html>

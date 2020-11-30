@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Video, Changing Controls</title>
+  <style>
+    body{
+      background-color: rgb(37,37,37);
+      color: aliceblue;
+      padding: 2rem;
+      margin: 0;
+    }
+    button {
+      background-color: #3d0000;
+      border-color: rgb(82, 82, 82);
+      border-radius: 8px;
+      color: rgb(180, 180, 180);
+      font-size: 1.2rem;
+      font-weight: 600;
+      height: 36px;
+      border-style: solid;
+    }
+    a, time {
+      color: aliceblue;
+    }
+
+  </style>
+</head>
+<body>
+  <video src="MEDIA/video.mp4" poster="MEDIA/still.png" preload="metadata" width="600">
+  </video>
+  <div id="mediacontrols">
+    <button id="play">Play</button>
+    <button id="pause">Pause</button>
+
+    <div id="timeDisplay">
+      <time id="positionDisplay">00:00</time>
+      <time id="durationDisplay">00:00</time>
+    </div>
+    <div id="controlBarRail">
+      <div id="controlBarFill">
+        
+      </div>
+    </div>
+  </div>
+
+
+</body>
+</html>
