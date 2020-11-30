@@ -1,5 +1,10 @@
 # Linkedin Learning : Web Dev Front In Lessons
 
+### 2020 11 29 || 0900 Lesson 07
+Continued Lesson.  Did not complete.  Need to continue tomorrow.  
+
+-----------------------------------------------------------------------------
+
 ## LI 07 … HTML Video and Audio && LI 08 … HTML Web Programming Foundations
 
 ### 2020 11 28 : 0700 || Lesson 07 
