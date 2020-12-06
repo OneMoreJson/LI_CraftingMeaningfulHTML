@@ -1,5 +1,11 @@
 # Linkedin Learning : Web Dev Front In Lessons
 
+## LI 09 … HTML5 Structure Syntax And Semantics
+
+### 2020 11 30 || 2100 Lesson 09
+Preparing to do a 3 hour (more in-depth) course on LI.  I’m hoping to pick up some things that make this work better in my head.  Best practices and building better foundations in HTML5. Also, I am hoping to better understand how I can make accessible code for people who have special visual and hearing needs.  
+
+-----------------------------------------------------------------------------
 
 ### 2020 11 30 || 1350 Lesson 07
 Finally completed.  This was both a lot more than I needed for the class, while also only touching the surface of what we could do.  It was a good class.  I need to learn JS next.  
