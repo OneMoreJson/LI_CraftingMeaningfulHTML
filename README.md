@@ -1,5 +1,9 @@
 # Linkedin Learning : Web Dev Front In Lessons
 
+### 2020 12 05 : 0900 || Lesson 09
+First, I find it rather frustrating that I try to maintain a syntax structure when uploading my readme files.  Then I look down and several things were not correctly written.  I’m the one trying to follow the self-made rules and there I go, getting them mixed up.  Alright, rant over.
+Working on LI L 09, HTML Structure, Syntax and Semantics.  I left off at the section 02, Structures and footers. Competed the lesson.  Need to save this
+
 ## LI 09 … HTML5 Structure Syntax And Semantics
 
 ### 2020 11 30 || 2100 Lesson 09
