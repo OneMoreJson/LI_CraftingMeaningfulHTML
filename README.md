@@ -1,5 +1,12 @@
 # Linkedin Learning : Web Dev Front In Lessons
 
+## LI 10 … JavaScript Essential Training
+
+### 2020 12 06 : 1000 || Lesson 10 
+Started the initial videos.  I also, later, downloaded the content and structured my folders to continue this lesson.
+
+-----------------------------------------------------------------------------
+
 ### 2020 12 05 : 0900 || Lesson 09
 First, I find it rather frustrating that I try to maintain a syntax structure when uploading my readme files.  Then I look down and several things were not correctly written.  I’m the one trying to follow the self-made rules and there I go, getting them mixed up.  Alright, rant over.
 Working on LI L 09, HTML Structure, Syntax and Semantics.  I left off at the section 02, Structures and footers. Competed the lesson.  Need to save this
