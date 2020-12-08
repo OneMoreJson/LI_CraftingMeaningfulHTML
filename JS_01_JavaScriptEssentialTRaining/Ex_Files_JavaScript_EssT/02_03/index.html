@@ -10,5 +10,10 @@
 <body>
 
 </body>
+<!-- Script must be done after if you want to use it to display something within the body... otherwise you get an error  -->
+<script>
+    var date = new Date();
+    document.body.innerHTML = "<h1>Today is: " + date + "</h1>"
+</script>
 
 </html>

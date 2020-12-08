@@ -29,8 +29,8 @@ console.log("Before: ", pens);
 // console.log("After: ", pens);
 
 // Create a copy of an array. Typically assigned to a new variable:
-// var newPens = pens.slice();
-// console.log("New pens: ", newPens);
+var newPens = pens.slice();
+console.log("New pens: ", newPens);
 
 // Return the first element that matches the search parameter after the specified index position. Defaults to index position 0. Arguments: pens.indexOf(search, index):
 // var result = pens.indexOf(search, index);
