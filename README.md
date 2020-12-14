@@ -1,5 +1,10 @@
 # Linkedin Learning : Web Dev Front In Lessons
 
+### 2020 12 07 : 0730 || Lesson 10
+Worked in this course.  I won’t be able to continue later as I have a ton of real world life stuff!
+
+-----------------------------------------------------------------------------
+
 ## LI 10 … JavaScript Essential Training
 
 ### 2020 12 06 : 1000 || Lesson 10 
