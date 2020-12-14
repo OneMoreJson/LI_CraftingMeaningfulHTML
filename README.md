@@ -1,5 +1,10 @@
 # Linkedin Learning : Web Dev Front In Lessons
 
+### 2020 12 131830 : 0930 || LI 10
+I’m going to need to find a better class on JS.  This guy is kind of hard to follow.   
+
+-----------------------------------------------------------------------------
+
 ### 2020 12 07 : 0730 || Lesson 10
 Worked in this course.  I won’t be able to continue later as I have a ton of real world life stuff!
 
