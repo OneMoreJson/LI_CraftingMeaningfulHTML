@@ -1,5 +1,10 @@
 # Linkedin Learning : Web Dev Front In Lessons
 
+### 2020 12 : 1430 || Admin
+Closing this Repo and moving files into the "Study_HTML/CSS" repo.  This lets me add work from other training sources without openning another Repo.  
+
+-----------------------------------------------------------------------------
+
 ### 2020 12 131830 : 0930 || LI 10
 I’m going to need to find a better class on JS.  This guy is kind of hard to follow.   
 
